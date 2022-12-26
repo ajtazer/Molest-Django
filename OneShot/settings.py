@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h01zho6(yznx@k#d$6d)ra@zlrw3xlwj_(&)l8ifm^oa=w(tnp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://molest-django-tazer.vercel.app']
 
 
 # Application definition
@@ -75,10 +75,10 @@ WSGI_APPLICATION = 'OneShot.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # }
 }
 
 
