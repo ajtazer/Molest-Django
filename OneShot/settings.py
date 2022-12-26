@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h01zho6(yznx@k#d$6d)ra@zlrw3xlwj_(&)l8ifm^oa=w(tnp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://molest-django-tazer.vercel.app']
+ALLOWED_HOSTS = ['https://molest-django-tazer.vercel.app', 'https://molest-django-git-master-tazer.vercel.app']
 
 
 # Application definition
